@@ -2,8 +2,7 @@ const bgMusic = new Audio("background.mp3");
 bgMusic.loop = true;
 bgMusic.volume = 0.4;
 
-const petalSound = new Audio("petal.mp3");
-petalSound.volume = 0.6;
+
 
 function playLotus() {
     const petals = Array.from(document.querySelectorAll('.petal'))
